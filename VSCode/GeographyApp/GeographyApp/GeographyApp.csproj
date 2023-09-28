@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Photos\geolanderTitle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Photos\geolanderTitle.png" />
+  </ItemGroup>
+
 </Project>

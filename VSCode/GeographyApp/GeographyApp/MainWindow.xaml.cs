@@ -41,6 +41,11 @@ namespace GeographyApp
             MainMenuUserControls.Opacity += .1;
         }
 
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
     }
 
 }

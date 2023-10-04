@@ -41,11 +41,55 @@ namespace GeographyApp
             MainMenuUserControls.Opacity += .1;
         }
 
+        // Main Menu User Options
+        //--------------------------------------------------------------------------------
+        private void PlayButton_Click(object sender, EventArgs e)
+        {
+            PlayButton.Content = "Flag Mode";
+            InfoButton.Content = "Map Mode";
+            ExitButton.Content = "Return";
+            PlayButton.Click -= PlayButton_Click;
+            PlayButton.Click += FlagModeButton_Click;
+            InfoButton.Click -= InfoButton_Click;
+            InfoButton.Click += MapModeButton_Click;
+            ExitButton.Click -= ExitButton_Click;
+            ExitButton.Click += ReturnButton_Click;
+        }
+
+        private void InfoButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         private void ExitButton_Click(object sender, EventArgs e)
         {
             Application.Current.Shutdown();
         }
+        //---------------------------------------------------------------------------------
 
+        //Play Menu User Options
+        //---------------------------------------------------------------------------------
+        private void FlagModeButton_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void MapModeButton_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void ReturnButton_Click(object sender, EventArgs e)
+        {
+            PlayButton.Content = "Play";
+            InfoButton.Content = "Info";
+            ExitButton.Content = "Exit";
+            PlayButton.Click -= FlagModeButton_Click;
+            PlayButton.Click += PlayButton_Click;
+            InfoButton.Click -= MapModeButton_Click;
+            InfoButton.Click += InfoButton_Click;
+            ExitButton.Click -= ReturnButton_Click;
+            ExitButton.Click += ExitButton_Click;
+        }
+        //----------------------------------------------------------------------------------
     }
 
 }

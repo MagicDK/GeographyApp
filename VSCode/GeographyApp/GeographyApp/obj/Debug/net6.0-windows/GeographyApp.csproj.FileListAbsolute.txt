@@ -15,7 +15,7 @@ C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\Geogr
 C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\GeographyApp.AssemblyInfo.cs
 C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\GeographyApp.csproj.CoreCompileInputs.cache
 C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\GeographyApp.dll
-C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\refint\GeographyApp.dll
 C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\GeographyApp.pdb
 C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\GeographyApp.genruntimeconfig.cache
 C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\ref\GeographyApp.dll
+C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\bin\Debug\net6.0-windows\ref\GeographyApp.dll

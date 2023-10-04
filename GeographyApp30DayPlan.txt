@@ -1,3 +1,32 @@
 Day 1 (Sept 26). Cleanup Desktop, Locate Hard Drive, Configure GitHub / Cleanup GitHub account, Start Working on GeoApp Splash Screen, Investigate Apps to track progress
 
-Day 2 (Sept 27). 
+Day 2 (Sept 27). Continue working on splash screen, complete a rough draft with image and moving text and buttons, move onto game flags and functionality
+
+Day 3 (Sept 29). Find and organize all flags, continent and country imagery
+
+Day 4 (Sept 30). Finish organizing flags, start adding flag mode functionality
+
+Day 5 (Oct 2). Develop UI, start adding Flag Mode functionality
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IMPORTANT FOR LATER
+------------------------------------------------------
+https://github.com/jwasham/coding-interview-university
+------------------------------------------------------

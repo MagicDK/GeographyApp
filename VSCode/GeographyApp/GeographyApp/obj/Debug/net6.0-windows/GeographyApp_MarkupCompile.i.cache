@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\App.xaml
-11407045341
+2393062645
 
-5-602120350
+6-724587630
 1941769180620
-MainWindow.xaml;
+GameSettingsPage.xaml;MainWindow.xaml;
 
-True
+False
 

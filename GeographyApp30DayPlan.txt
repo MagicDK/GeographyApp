@@ -6,7 +6,9 @@ Day 3 (Sept 29). Find and organize all flags, continent and country imagery
 
 Day 4 (Sept 30). Finish organizing flags, start adding flag mode functionality
 
-Day 5 (Oct 2). Develop UI, start adding Flag Mode functionality
+Day 5 (Oct 3). Develop UI, start adding Flag Mode functionality
+
+Day 6 (Oct 4). Finish Play settings and integrate page into program
 
 
 

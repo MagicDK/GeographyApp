@@ -19,3 +19,7 @@ C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\Geogr
 C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\GeographyApp.genruntimeconfig.cache
 C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\ref\GeographyApp.dll
 C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\bin\Debug\net6.0-windows\ref\GeographyApp.dll
+C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\GameSettingsPage.g.cs
+C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\GameSettingsPage.baml
+C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\MainMenuPage.g.cs
+C:\Users\Cole\Desktop\GeographyAppProject\GeographyApp\VSCode\GeographyApp\GeographyApp\obj\Debug\net6.0-windows\MainMenuPage.baml

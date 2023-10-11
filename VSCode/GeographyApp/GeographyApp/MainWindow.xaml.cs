@@ -26,11 +26,46 @@ namespace GeographyApp
         public MainWindow()
         {
             InitializeComponent();
+            InitializeCountries();
             Main.Content = new MainMenuPage();
         }
+
         public void DisplayPlaySettings()
         {
             Main.Content = new GameSettingsPage();
+        }
+
+        private void InitializeCountries()
+        {
+            // Continent Association Array
+            //----------------------------------
+            //   0 - North America
+            //   1 - Europe
+            //   2 - Africa
+            //   3 - South America
+            //   4 - Oceania
+            //   5 - Asia
+            //-----------------------------------
+
+            //Continent Instantiation (Name, Shape)
+            //-----------------------------------
+            Continent[] Continents = {
+                new Continent("North America", new Image()),
+                new Continent("Europe", new Image()),
+                new Continent("Africa", new Image()),
+                new Continent("South America", new Image()),
+                new Continent("Oceania", new Image()),
+                new Continent("Asia", new Image())
+            };
+            //----------------------------------
+
+            //Country Instantiation (Name, Flag, Shape, Continent, Territory, Island)
+            //----------------------------------
+                new Country("American Samoa", new Image(), new Image(), Continents[0], true, true);
+                new Country("Anguilla", new Image(), new Image(), Continents[0], true, true);
+                new Country("Antigua Barbuda", new Image(), new Image(), Continents[0], true, true);
+                new Country("Bahamas", new Image(), new Image(), Continents[0], false, true);
+            //----------------------------------
         }
     }
 

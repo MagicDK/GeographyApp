@@ -17,13 +17,13 @@
                     <RowDefinition Height="*"></RowDefinition>
                     <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
-                <Grid Grid.Row="0">
+                <Grid Grid.Row="0" Width="Auto" Height="Auto">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" TextDecorations="{x:Null}"><Run Language="en-ca" Text="Continents:"/></TextBlock>
-                    <Grid Grid.Row="0" Grid.Column="1">
+                    <Grid Grid.Row="0" Grid.Column="1" Width="Auto" Height="Auto">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*"></RowDefinition>
                             <RowDefinition Height="*"></RowDefinition>
@@ -35,23 +35,23 @@
                         </Grid.ColumnDefinitions>
 
 
-                        <CheckBox Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="NorthAmericaCheckBox" Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="North America" />
                         </CheckBox>
-                        <CheckBox Grid.Row="0" Grid.Column="1" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="EuropeCheckBox" Grid.Row="0" Grid.Column="1" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="Europe" />
                         </CheckBox>
-                        <CheckBox Grid.Row="0" Grid.Column="2" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="AfricaCheckBox" Grid.Row="0" Grid.Column="2" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="Africa" />
                         </CheckBox>
 
-                        <CheckBox Grid.Row="1" Grid.Column="0" Margin="10,0,10,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="SouthAmericaCheckBox" Grid.Row="1" Grid.Column="0" Margin="10,0,10,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="South America" />
                         </CheckBox>
-                        <CheckBox Grid.Row="1" Grid.Column="1" Margin="10,0,10,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="OceaniaCheckBox" Grid.Row="1" Grid.Column="1" Margin="10,0,10,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="Oceania" />
                         </CheckBox>
-                        <CheckBox Grid.Row="1" Grid.Column="2" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="AsiaCheckBox" Grid.Row="1" Grid.Column="2" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="Asia" />
                         </CheckBox>
    
@@ -64,10 +64,10 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" TextDecorations="{x:Null}"><Run Language="en-ca" Text="Include:"/></TextBlock>
-                    <CheckBox Grid.Row="0" Grid.Column="1" Margin="10,0,10,0" HorizontalAlignment="Center" VerticalAlignment="Center" FlowDirection="LeftToRight">
+                    <CheckBox x:Name="IslandsCheckBox" Grid.Row="0" Grid.Column="1" Margin="10,0,10,0" HorizontalAlignment="Center" VerticalAlignment="Center" FlowDirection="LeftToRight">
                         <TextBlock FlowDirection="LeftToRight" Text="Islands" />
                     </CheckBox>
-                    <CheckBox Grid.Row="0" Grid.Column="2" Margin="10,0,10,0" HorizontalAlignment="Center" VerticalAlignment="Center" FlowDirection="LeftToRight">
+                    <CheckBox x:Name="TerritoriesCheckBox" Grid.Row="0" Grid.Column="2" Margin="10,0,10,0" HorizontalAlignment="Center" VerticalAlignment="Center" FlowDirection="LeftToRight">
                         <TextBlock FlowDirection="LeftToRight" Text="Territories" />
                     </CheckBox>
                 </Grid>
@@ -76,11 +76,11 @@
                         <RowDefinition Height="*"></RowDefinition>
                         <RowDefinition Height="*"></RowDefinition>
                     </Grid.RowDefinitions>
-                    <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"># Countries Selected</Label>
+                    <Label x:Name="CountriesSelectedLabel" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"># Countries Selected</Label>
                     <StackPanel Grid.Row="1" Grid.Column="0">
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
                             <Label>Number of flags to guess:</Label>
-                            <TextBox VerticalAlignment="Center" IsEnabled="True" Width="100">10</TextBox>
+                            <TextBox x:Name="GuessCountTextBox" VerticalAlignment="Center" IsEnabled="True" Width="100">10</TextBox>
                         </StackPanel>
                     </StackPanel>
                     <!--<Border Width="200" Height="15" Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="2">
@@ -92,12 +92,11 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Row="0" Grid.Column="0" Background="PaleVioletRed" Content="Cancel"></Button>
-                    <Button Grid.Row="0" Grid.Column="1" Background="LightGreen" Content="Play!"></Button>
+                    <Button x:Name="CancelButton" Grid.Row="0" Grid.Column="0" Background="PaleVioletRed" Content="Cancel"></Button>
+                    <Button x:Name="PlayButton" Grid.Row="0" Grid.Column="1" Background="LightGreen" Content="Play!"></Button>
                 </Grid>
             </Grid>
         </Border>
         <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" Text="Game Settings" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="911,130,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>

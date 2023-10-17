@@ -149,7 +149,7 @@ namespace GeographyApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GeographyApp;V1.0.0.0;component/gamesettingspage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GeographyApp;component/gamesettingspage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\GameSettingsPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

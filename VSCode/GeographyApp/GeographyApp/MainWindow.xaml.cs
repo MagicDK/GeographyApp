@@ -26,16 +26,15 @@ namespace GeographyApp
         public MainWindow()
         {
             InitializeComponent();
-            InitializeCountries();
             Main.Content = new MainMenuPage();
         }
 
         public void DisplayPlaySettings()
         {
-            Main.Content = new GameSettingsPage();
+            Main.Content = new GameSettingsPage(InitializeCountries());
         }
 
-        private void InitializeCountries()
+        private Continent[] InitializeCountries()
         {
             // Continent Association Array
             //----------------------------------
@@ -49,23 +48,24 @@ namespace GeographyApp
 
             //Continent Instantiation (Name, Shape)
             //-----------------------------------
-            Continent[] Continents = {
-                new Continent("North America", new Image()),
-                new Continent("Europe", new Image()),
-                new Continent("Africa", new Image()),
-                new Continent("South America", new Image()),
-                new Continent("Oceania", new Image()),
-                new Continent("Asia", new Image())
+                Continent[] Continents = {
+                new Continent("North America", new BitmapImage()),
+                new Continent("Europe", new BitmapImage()),
+                new Continent("Africa", new BitmapImage()),
+                new Continent("South America", new BitmapImage()),
+                new Continent("Oceania", new BitmapImage()),
+                new Continent("Asia", new BitmapImage())
             };
             //----------------------------------
 
             //Country Instantiation (Name, Flag, Shape, Continent, Territory, Island)
             //----------------------------------
-                new Country("American Samoa", new Image(), new Image(), Continents[0], true, true);
-                new Country("Anguilla", new Image(), new Image(), Continents[0], true, true);
-                new Country("Antigua Barbuda", new Image(), new Image(), Continents[0], true, true);
-                new Country("Bahamas", new Image(), new Image(), Continents[0], false, true);
+                new Country("American Samoa", new BitmapImage(new Uri("GeographyApp;component/Photos/Flags/NorthAmerica/AmericanSamoa.png")), new BitmapImage(), Continents[0], true, true);
+                new Country("Anguilla", new BitmapImage(new Uri("../GeographyApp/Photos/Flags/NorthAmerica/Anguilla.png")), new BitmapImage(), Continents[0], true, true);
+                new Country("Antigua Barbuda", new BitmapImage(new Uri("../GeographyApp/Photos/Flags/NorthAmerica/AntiguaBarbuda.png")), new BitmapImage(), Continents[0], true, true);
+                new Country("Bahamas", new BitmapImage(new Uri("../GeographyApp/Photos/Flags/NorthAmerica/Bahamas.png")), new BitmapImage(), Continents[0], false, true);
             //----------------------------------
+            return Continents;
         }
     }
 

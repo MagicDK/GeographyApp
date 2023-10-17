@@ -20,9 +20,10 @@ namespace GeographyApp
     /// </summary>
     public partial class GameSettingsPage : Page
     {
-        public GameSettingsPage()
+        public GameSettingsPage(Continent[] arr)
         {
             InitializeComponent();
+            CountriesSelectedLabel.Content = arr[0].CountryList.Count + " Countries Selected";
         }
     }
 }

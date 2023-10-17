@@ -10,6 +10,10 @@ Day 5 (Oct 3). Develop UI, start adding Flag Mode functionality
 
 Day 6 (Oct 4). Finish Play settings and integrate page into program
 
+Day 8 (Oct 11). Create class structure
+
+Day 9 (Oct 12). Incorporate Bitmap imagery and Instantiate Countries
+
 
 
 

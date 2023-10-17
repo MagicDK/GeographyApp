@@ -4,18 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using System.Windows.Media.Imaging;
 
 namespace GeographyApp
 {
     public class Continent
     {
         public string ContinentName;
-        public Image ContinentShape;
+        public BitmapImage ContinentShape;
         public List<Country> CountryList;
         public List<Country> TerritoryList;
         public List<Country> IslandList;
 
-        public Continent(string name, Image shape)
+        public Continent(string name, BitmapImage shape)
         {
             this.ContinentName = name;
             this.ContinentShape = shape;

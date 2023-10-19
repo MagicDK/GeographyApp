@@ -60,10 +60,10 @@ namespace GeographyApp
 
             //Country Instantiation (Name, Flag, Shape, Continent, Territory, Island)
             //----------------------------------
-                new Country("American Samoa", new BitmapImage(new Uri("GeographyApp;component/Photos/Flags/NorthAmerica/AmericanSamoa.png")), new BitmapImage(), Continents[0], true, true);
-                new Country("Anguilla", new BitmapImage(new Uri("../GeographyApp/Photos/Flags/NorthAmerica/Anguilla.png")), new BitmapImage(), Continents[0], true, true);
-                new Country("Antigua Barbuda", new BitmapImage(new Uri("../GeographyApp/Photos/Flags/NorthAmerica/AntiguaBarbuda.png")), new BitmapImage(), Continents[0], true, true);
-                new Country("Bahamas", new BitmapImage(new Uri("../GeographyApp/Photos/Flags/NorthAmerica/Bahamas.png")), new BitmapImage(), Continents[0], false, true);
+                new Country("American Samoa", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/AmericanSamoa.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], true, true);
+                new Country("Anguilla", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Anguilla.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], true, true);
+                new Country("Antigua Barbuda", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/AntiguaBarbuda.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], true, true);
+                new Country("Bahamas", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Bahamas.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], false, true);
             //----------------------------------
             return Continents;
         }

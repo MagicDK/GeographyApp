@@ -23,7 +23,7 @@ namespace GeographyApp
         public GameSettingsPage(Continent[] arr)
         {
             InitializeComponent();
-            CountriesSelectedLabel.Content = arr[0].CountryList.Count + " Countries Selected";
+            CountriesSelectedLabel.Content = arr[0].TerritoryList.Count + " Countries Selected";
         }
     }
 }

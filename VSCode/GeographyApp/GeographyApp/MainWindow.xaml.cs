@@ -64,6 +64,9 @@ namespace GeographyApp
                 new Country("Anguilla", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Anguilla.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], true, true);
                 new Country("Antigua Barbuda", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/AntiguaBarbuda.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], true, true);
                 new Country("Bahamas", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Bahamas.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], false, true);
+                new Country("Barbados", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Barbados.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], false, true);
+                new Country("Belize", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Belize.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], false, false);
+                new Country("Bermuda", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Bermuda.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], true, true);
             //----------------------------------
             return Continents;
         }

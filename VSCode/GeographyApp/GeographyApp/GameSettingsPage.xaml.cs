@@ -24,6 +24,9 @@ namespace GeographyApp
         {
             InitializeComponent();
             CountriesSelectedLabel.Content = arr[0].TerritoryList.Count + " Countries Selected";
+            Image flagtest = new Image();
+            flagtest.Source = arr[0].TerritoryList[0].CountryFlag;
+            flagtest.IsEnabled = true;
         }
     }
 }

@@ -60,14 +60,14 @@ namespace GeographyApp
 
             //Country Instantiation (Name, Flag, Shape, Continent, Territory, Island)
             //----------------------------------
-                new Country("American Samoa", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/AmericanSamoa.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], true, true);
-                new Country("Anguilla", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Anguilla.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], true, true);
-                new Country("Antigua Barbuda", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/AntiguaBarbuda.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], true, true);
-                new Country("Bahamas", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Bahamas.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], false, true);
-                new Country("Barbados", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Barbados.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], false, true);
-                new Country("Belize", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Belize.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], false, false);
-                new Country("Bermuda", new BitmapImage(new Uri(@"/Photos/Flags/NorthAmerica/Bermuda.png", UriKind.RelativeOrAbsolute)), new BitmapImage(), Continents[0], true, true);
-            //----------------------------------
+                new Country("American Samoa", new BitmapImage(new Uri(@"/GeographyApp;component/Photos/Flags/NorthAmerica/AmericanSamoa.png", UriKind.Relative)), new BitmapImage(), Continents[0], true, true);
+                new Country("Anguilla", new BitmapImage(new Uri(@"/GeographyApp;component/Photos/Flags/NorthAmerica/Anguilla.png", UriKind.Relative)), new BitmapImage(), Continents[0], true, true);
+                new Country("Antigua Barbuda", new BitmapImage(new Uri(@"/GeographyApp;component/Photos/Flags/NorthAmerica/AntiguaBarbuda.png", UriKind.Relative)), new BitmapImage(), Continents[0], true, true);
+                new Country("Bahamas", new BitmapImage(new Uri(@"/GeographyApp;component/Photos/Flags/NorthAmerica/Bahamas.png", UriKind.Relative)), new BitmapImage(), Continents[0], false, true);
+                new Country("Barbados", new BitmapImage(new Uri(@"/GeographyApp;component/Photos/Flags/NorthAmerica/Barbados.png", UriKind.Relative)), new BitmapImage(), Continents[0], false, true);
+                new Country("Belize", new BitmapImage(new Uri(@"/GeographyApp;component/Photos/Flags/NorthAmerica/Belize.png", UriKind.Relative)), new BitmapImage(), Continents[0], false, false);
+                new Country("Bermuda", new BitmapImage(new Uri(@"/GeographyApp;component/Photos/Flags/NorthAmerica/Bermuda.png", UriKind.Relative)), new BitmapImage(), Continents[0], true, true);
+            //---------------------------------- MUST SET INDIVIDUAL FLAG BUILD ACTION TO RESOURCE FOR FLAG TO DISPLAY ---------------------------------
             return Continents;
         }
     }

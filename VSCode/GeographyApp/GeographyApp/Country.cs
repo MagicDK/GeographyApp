@@ -24,8 +24,8 @@ namespace GeographyApp
             this.CountryContinent = continent;
             this.isTerritory = territory;
             this.isIsland = island;
+            if (isIsland) { continent.IslandList.Add(this); }
             if (isTerritory) { continent.TerritoryList.Add(this); }
-            else if (isIsland) { continent.IslandList.Add(this); }
             else { continent.CountryList.Add(this); }
         }
     }

@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Photos\Flags\NorthAmerica\AmericanSamoa.png" />
+    <None Remove="Photos\Flags\NorthAmerica\Anguilla.png" />
+    <None Remove="Photos\Flags\NorthAmerica\AntiguaBarbuda.png" />
+    <None Remove="Photos\Flags\NorthAmerica\Bahamas.png" />
+    <None Remove="Photos\Flags\NorthAmerica\Barbados.png" />
+    <None Remove="Photos\Flags\NorthAmerica\Belize.png" />
+    <None Remove="Photos\Flags\NorthAmerica\Bermuda.png" />
+    <None Remove="Photos\Flags\NorthAmerica\BritishVirginIslands.png" />
     <None Remove="Photos\geolanderTitle.png" />
   </ItemGroup>
 
@@ -21,6 +29,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Photos\Flags\NorthAmerica\AmericanSamoa.png" />
+    <Resource Include="Photos\Flags\NorthAmerica\Anguilla.png" />
+    <Resource Include="Photos\Flags\NorthAmerica\AntiguaBarbuda.png" />
+    <Resource Include="Photos\Flags\NorthAmerica\Bahamas.png" />
+    <Resource Include="Photos\Flags\NorthAmerica\Barbados.png" />
+    <Resource Include="Photos\Flags\NorthAmerica\Belize.png" />
+    <Resource Include="Photos\Flags\NorthAmerica\Bermuda.png" />
+    <Resource Include="Photos\Flags\NorthAmerica\BritishVirginIslands.png" />
     <Resource Include="Photos\geolanderTitle.png" />
   </ItemGroup>
 

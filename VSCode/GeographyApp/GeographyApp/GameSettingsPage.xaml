@@ -35,23 +35,23 @@
                         </Grid.ColumnDefinitions>
 
 
-                        <CheckBox x:Name="NorthAmericaCheckBox" Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="NorthAmericaCheckBox" Click="Checkbox_Click" Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="North America" />
                         </CheckBox>
-                        <CheckBox x:Name="EuropeCheckBox" Grid.Row="0" Grid.Column="1" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="EuropeCheckBox" Click="Checkbox_Click" Grid.Row="0" Grid.Column="1" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="Europe" />
                         </CheckBox>
-                        <CheckBox x:Name="AfricaCheckBox" Grid.Row="0" Grid.Column="2" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="AfricaCheckBox" Click="Checkbox_Click" Grid.Row="0" Grid.Column="2" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Center" VerticalAlignment="Bottom" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="Africa" />
                         </CheckBox>
 
-                        <CheckBox x:Name="SouthAmericaCheckBox" Grid.Row="1" Grid.Column="0" Margin="10,0,10,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="SouthAmericaCheckBox" Click="Checkbox_Click" Grid.Row="1" Grid.Column="0" Margin="10,0,10,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="South America" />
                         </CheckBox>
-                        <CheckBox x:Name="OceaniaCheckBox" Grid.Row="1" Grid.Column="1" Margin="10,0,10,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="OceaniaCheckBox" Click="Checkbox_Click" Grid.Row="1" Grid.Column="1" Margin="10,0,10,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="Oceania" />
                         </CheckBox>
-                        <CheckBox x:Name="AsiaCheckBox" Grid.Row="1" Grid.Column="2" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
+                        <CheckBox x:Name="AsiaCheckBox" Click="Checkbox_Click" Grid.Row="1" Grid.Column="2" Margin="0,0,0,0" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" FlowDirection="LeftToRight">
                             <TextBlock FlowDirection="LeftToRight" Text="Asia" />
                         </CheckBox>
    

@@ -92,7 +92,7 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <Button x:Name="CancelButton" Grid.Row="0" Grid.Column="0" Background="PaleVioletRed" Content="Cancel"></Button>
+                    <Button x:Name="CancelButton" Click="Cancel_Click" Grid.Row="0" Grid.Column="0" Background="PaleVioletRed" Content="Cancel"></Button>
                     <Button x:Name="PlayButton" Grid.Row="0" Grid.Column="1" Background="LightGreen" Content="Play!"></Button>
                 </Grid>
             </Grid>

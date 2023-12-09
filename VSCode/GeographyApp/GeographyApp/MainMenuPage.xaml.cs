@@ -25,12 +25,19 @@ namespace GeographyApp
     public partial class MainMenuPage : Page
     {
         DispatcherTimer timer1 = new DispatcherTimer();
-        public MainMenuPage()
+        public MainMenuPage(bool first_launch)
         {
             InitializeComponent();
-            timer1.Tick += new EventHandler(timer1_Tick);
-            timer1.Interval = TimeSpan.FromMilliseconds(50);
-            timer1.Start();
+            if (first_launch)
+            {
+                timer1.Tick += new EventHandler(timer1_Tick);
+                timer1.Interval = TimeSpan.FromMilliseconds(50);
+                timer1.Start();
+            }
+            else
+            {
+                MainMenuUserControls.Opacity = 1;
+            }
         }
         private void timer1_Tick(object sender, EventArgs e)
         {

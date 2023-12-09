@@ -83,5 +83,14 @@ namespace GeographyApp
             }
             CountriesSelectedLabel.Content = CountriesSelectedCount + " Countries Selected";
         }
+
+        private void Cancel_Click(object sender, EventArgs e)
+        {
+            MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            if (mainWindow != null)
+            {
+                mainWindow.DisplayMainMenu(false);
+            }
+        }
     }
 }

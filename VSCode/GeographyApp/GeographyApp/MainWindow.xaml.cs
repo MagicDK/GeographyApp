@@ -26,7 +26,12 @@ namespace GeographyApp
         public MainWindow()
         {
             InitializeComponent();
-            Main.Content = new MainMenuPage();
+            DisplayMainMenu(true);
+        }
+
+        public void DisplayMainMenu(bool first_launch)
+        {
+            Main.Content = new MainMenuPage(first_launch);
         }
 
         public void DisplayPlaySettings()

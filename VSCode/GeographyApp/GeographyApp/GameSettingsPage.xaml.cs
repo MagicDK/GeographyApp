@@ -92,5 +92,14 @@ namespace GeographyApp
                 mainWindow.DisplayMainMenu(false);
             }
         }
+
+        private void Play_Click(object sender, EventArgs e)
+        {
+            MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            if (mainWindow != null)
+            {
+                mainWindow.DisplayFlagModePage();
+            }
+        }
     }
 }

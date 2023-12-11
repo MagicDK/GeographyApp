@@ -30,6 +30,7 @@ namespace GeographyApp
             InitializeComponent();
             if (first_launch)
             {
+                MainMenuUserControls.Opacity = 0;
                 timer1.Tick += new EventHandler(timer1_Tick);
                 timer1.Interval = TimeSpan.FromMilliseconds(50);
                 timer1.Start();

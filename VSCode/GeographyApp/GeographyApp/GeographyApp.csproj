@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Photos\Flags\Africa\Gambia.png" />
     <None Remove="Photos\Flags\NorthAmerica\AmericanSamoa.png" />
     <None Remove="Photos\Flags\NorthAmerica\Anguilla.png" />
     <None Remove="Photos\Flags\NorthAmerica\AntiguaBarbuda.png" />
@@ -31,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Photos\Flags\Africa\Gambia.png" />
     <Resource Include="Photos\Flags\NorthAmerica\AmericanSamoa.png" />
     <Resource Include="Photos\Flags\NorthAmerica\Anguilla.png" />
     <Resource Include="Photos\Flags\NorthAmerica\AntiguaBarbuda.png" />

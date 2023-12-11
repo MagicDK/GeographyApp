@@ -9,13 +9,13 @@
       Title="MainMenuPage">
 
     <Grid>
-        <Grid x:Name="GeolanderTitleCanvas" Height="auto" Width="auto" Margin="100, 100, 100, 0">
+        <Grid x:Name="GeolanderTitleCanvas" Height="auto" Width="auto" Margin="0, 50, 0, 0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="4*"></RowDefinition>
             </Grid.RowDefinitions>
-            <Image x:Name="GeolanderTitle" Source="/Photos/geolanderTitle.png" Grid.Row="0" RenderOptions.BitmapScalingMode="Fant" Margin="200, 0, 200, 0" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <Grid Margin="125, 100, 125, 50" Grid.Row="1" Name="MainMenuUserControls" Opacity="0">
+            <Image x:Name="GeolanderTitle" Source="/Photos/geolanderTitle.png" Grid.Row="0" RenderOptions.BitmapScalingMode="Fant" Margin="150, 0, 150, 0" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Grid Margin="125, 25, 125, 25" Grid.Row="1" Name="MainMenuUserControls">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"></RowDefinition>
                     <RowDefinition Height="*"></RowDefinition>

@@ -39,6 +39,11 @@ namespace GeographyApp
             Main.Content = new GameSettingsPage(InitializeCountries());
         }
 
+        public void DisplayFlagModePage()
+        {
+            Main.Content = new FlagModePage();
+        }
+
         private Continent[] InitializeCountries()
         {
             // Continent Association Array

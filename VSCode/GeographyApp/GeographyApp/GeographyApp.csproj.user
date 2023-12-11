@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="FlagModePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="GameSettingsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +18,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="FlagModePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="GameSettingsPage.xaml">
       <SubType>Designer</SubType>
     </Page>

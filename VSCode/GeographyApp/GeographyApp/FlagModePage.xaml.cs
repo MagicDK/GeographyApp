@@ -24,5 +24,17 @@ namespace GeographyApp
         {
             InitializeComponent();
         }
+
+        private void FlagGuessBoxFocus(object sender, EventArgs e)
+        {
+            FlagGuessBox.Text = "";
+            FlagGuessBox.Foreground = new SolidColorBrush(Colors.Black);
+        }
+
+        private void FlagGuessBoxLostFocus(object sender, EventArgs e)
+        {
+            FlagGuessBox.Text = "Enter Country Name...";
+            FlagGuessBox.Foreground = new SolidColorBrush(Colors.LightGray);
+        }
     }
 }
